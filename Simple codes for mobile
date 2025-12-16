@@ -54,6 +54,8 @@ while True:
                     2
                 )
 
+     #frame by frame for easy running 
+
     if frame_count % 20 == 0:
         img_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         plt.figure(figsize=(5,4))
